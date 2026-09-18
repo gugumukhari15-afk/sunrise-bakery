@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Artisan Bakehouse. Find our locations, opening hours and get in touch.">
+    <title>Contact Us | Artisan Bakehouse</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo">Artisan Bakehouse</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>We’d love to hear from you – visit us or drop us a message</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <div class="info-item">
+                            <h3>Email</h3>
+                            <p><a href="mailto:hello@artisanbakehouse.co.za">hello@artisanbakehouse.co.za</a></p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+27697717220">+27 69 771 7220</a></p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Opening Hours</h3>
+                            <p>Monday – Friday: 07:00 – 17:00<br>
+                               Saturday: 08:00 – 14:00<br>
+                               Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <h2>Send a Message</h2>
+                        <form id="contactForm" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="contactName">Name <span class="required">*</span></label>
+                                <input type="text" id="contactName" name="contactName" required>
+                                <span class="error-message" id="contactNameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email <span class="required">*</span></label>
+                                <input type="email" id="contactEmail" name="contactEmail" required>
+                                <span class="error-message" id="contactEmailError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message <span class="required">*</span></label>
+                                <textarea id="contactMessage" name="contactMessage" rows="5" required></textarea>
+                                <span class="error-message" id="contactMessageError"></span>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                        <div id="contactSuccess" class="success-message" style="display: none;">
+                            <p>Thank you! Your message has been sent.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section bg-light">
+            <div class="container">
+                <h2 class="text-center">Our Locations</h2>
+                <p class="text-center">We currently operate from two locations in Johannesburg</p>
+
+                <div class="maps-grid">
+                    <div class="map-card">
+                        <h3>Main Bakery – Observatory</h3>
+                        <p>12 Lower Main Road, Observatory, Johannesburg, 7925</p>
+                        <div class="map-embed">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.8!2d18.468!3d-33.939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5d1e1e1e1e1e%3A0x1e1e1e1e1e1e1e1e!2sObservatory%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1620000000000!5m2!1sen!2sza" 
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade" title="Observatory Location">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <div class="map-card">
+                        <h3>City Store – johannesburg CBD</h3>
+                        <p>Shop 14, Long Street, johannesburg, 8001</p>
+                        <div class="map-embed">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.5!2d18.418!3d-33.924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc676c0c0c0c0c%3A0x0c0c0c0c0c0c0c0c!2sLong%20Street%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1620000000001!5m2!1sen!2sza" 
+                                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade" title="CBD Location">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>Artisan Bakehouse</h4>
+                <p>Bringing the taste of authentic artisan baking to Johannesburg since 2018.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: hello@artisanbakehouse.co.za</p>
+                <p>Phone: +27 69 771 7220</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Artisan Bakehouse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
